@@ -86,6 +86,19 @@ pipenv install
 pipenv run pytest
 ```
 
+## Docker images
+
+To start a development Docker image with all required dependencies:
+
+```bash
+make docker-development
+```
+
+To run tests in a Docker image:
+
+```bash
+make docker-test
+```
 
 ### Binary Packages
 
